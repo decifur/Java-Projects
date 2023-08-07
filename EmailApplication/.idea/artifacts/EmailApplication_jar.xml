@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EmailApplication:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EmailApplication_jar</output-path>
+    <root id="archive" name="EmailApplication.jar">
+      <element id="module-output" name="EmailApplication" />
+    </root>
+  </artifact>
+</component>
