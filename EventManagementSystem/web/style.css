@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(183, 180, 177, 0.263);
+}
+
+#nav{
+    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    padding-left: 2vw;
+    position: relative;
+}
+#nav button{
+    margin: 5px;
+    padding: 10px;
+    width: 10vw;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    position: absolute;
+    right: 0;
+}
+
+#main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-pannel{
+    margin-top: 5vw;
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;    
+    border-radius: 10px;
+    overflow: hidden;
+}
+#user-signin{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+#user-signin h1{
+    font-weight: 800;
+}
+#user-signin h5{
+    font-weight: 400;
+}
+#iconset a{
+    text-decoration: none;
+}
+#iconset .icons{
+    font-size: 25px;
+    margin: 7px;
+    color: black;
+}
+#user-signin input{
+    width: 20vw;
+    height: 3vw;
+    color: black;
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+#user-signin button{
+    padding: 10px;
+    width: 35%;
+    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
+    color: white;
+    border-radius: 15px;
+    border-color: #FF4A2B;
+}
+
+#user-signup{
+    width: 50%;
+    height: 100%;
+    color: white;
+    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+#user-signup h1{
+    font-weight: 800;
+}
+#user-signup h5{
+    padding: 1vw 4vw;
+    font-weight: 400;
+    text-align: center;
+}
+#user-signup button{
+    padding: 10px;
+    width: 35%;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
