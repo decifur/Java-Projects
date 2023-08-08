@@ -73,13 +73,11 @@ body {
     outline: none;
 }
 
-#details button{
+#details #sub{
     padding: 10px;  
     align-self: center;
-    width: 35%;
     background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
     color: white;
     border-radius: 15px;
     border-color: #FF4A2B;
-
 }
