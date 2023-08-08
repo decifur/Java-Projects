@@ -86,7 +86,7 @@ body {
     border: none;
     outline: none;
 }
-#user-signin button{
+#user-signin #sub-in{
     padding: 10px;
     width: 35%;
     background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
@@ -114,11 +114,18 @@ body {
     font-weight: 400;
     text-align: center;
 }
-#user-signup button{
-    padding: 10px;
-    width: 35%;
-    border-radius: 15px;
+#user-signup a{
+    text-decoration: none;
     color: white;
+    border-radius: 15px;
+}
+#user-signup button{
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 15px;
     background-color: transparent;
     border-color: white;
+    color: white;   
+    font-size: 15px; 
+    font-weight: 600;
 }
