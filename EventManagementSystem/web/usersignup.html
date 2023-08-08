@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="user-style.css">
+    </head>
+    <body>
+        <div id="nav">
+            <a href="index.html"><i class="ri-home-heart-line"></i>EMP</a>
+        </div>
+        <div id="main">
+            <div id="user-signup">
+                <div id="heading">
+                    <h1>User Sign Up</h1>
+                </div>
+                <form  id="details" method="post" action="StoreP">
+                    <label for="name">Name</label>
+                    <input id="text" type="text" name="Pname">
+                    <label for="username">Username</label>
+                    <input type="text" id="text" name="Pusername" required minlength="4" maxlength="8" size="10"/>
+                    <label for="pass">Password</label>
+                    <input type="password" id="text" name="Ppassword" minlength="8" required placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" />
+                    <label for="re-pass">Confirm Password</label>
+                    <input type="password" id="text" name="Cpassword" minlength="8" required placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" />
+                    <input type="submit" id="sub" value="SIGN UP">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
