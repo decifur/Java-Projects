@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left bottom, #fc426ad6 0%, #ff4b2bc6 90%);
+    /* overflow: hidden; */
+}
+
+#nav{
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1vw;
+    padding-left: 2vw;
+    position: relative;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+#nav i{
+    padding-right: 10px;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+#admin-signin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    border-radius: 30px 30px 0px 0px;
+    width: 50%;
+    background-color: white;
+}
+#heading{
+    padding-top: 10vh;
+}
+#details{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 79%;
+    padding: 10% 30%;
+    gap: 2vh;
+}
+#details input{
+    width: 100%;
+    height: 3vw;
+    color: black;
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+#details button{
+    padding: 10px;  
+    align-self: center;
+    width: 35%;
+    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
+    color: white;
+    border-radius: 15px;
+    border-color: #FF4A2B;
+
+}
