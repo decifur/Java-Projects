@@ -1,11 +1,39 @@
+<!<!-- Login Page -->
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Login Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>Hello World</div>
+        <div id="nav">
+            <h1 style="text-align: center">Event Management Portal</h1>
+            <button type="button">Admin Login</button>
+        </div>
+        <div id="main"> 
+            <div id="login-pannel">
+                <div id="user-signin">
+                    <h1>Sign in</h1>
+                    <div id="iconset">
+                        <a href="#" class="icons"><i class="ri-google-fill"></i></a>
+                        <a href="#" class="icons"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#" class="icons"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+                    <h5>or use your account</h5>
+                    <input type="email" id="email" pattern=".+@globex\.com" size="30" required placeholder="Email"/>
+                    <input type="password" id="pass" name="password" minlength="8" required placeholder="Password" />  
+                    <h5>Forgot your password?</h5>
+                    <button type="button">SIGN IN</button>
+                </div>
+                <div id="user-signup">
+                    <h1>Hello, Friend!</h1>
+                    <h5>Enter your details and start your journey with us</h5>
+                    <button type="button">SIGN UP</button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
