@@ -16,14 +16,14 @@
                 <div id="heading">
                     <h1>Administrator Login</h1>
                 </div>
-                <div id="details">
-                    <label for="email">Username</label>
-                    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" placeholder="Admin"/>
-                    <label for="email">Password</label>
-                    <input type="password" id="pass" name="password" minlength="8" required placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" />
-                    <button type="button">LOG IN</button>
-                </div>
-                </div>
+                <form  id="details" method="post" action="ValidateAd">
+                    <label for="username">Username</label>
+                    <input type="text" id="text" name="Ausername" required minlength="4" maxlength="8" size="10" placeholder="Admin"/>
+                    <label for="pass">Password</label>
+                    <input type="password" id="text" name="Apassword" minlength="8" required placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" />
+                    <input type="submit" id="sub" value="LOG IN">
+                </form>
+            </div>
         </div>
     </body>
 </html>
