@@ -11,18 +11,14 @@
     <body>
         <div id="nav">
             <h1 style="text-align: center">Event Management Portal</h1>
-            <button type="button">Admin Login</button>
+            <div id="admin-tab">
+                <a href="adminlogin.html"><i class="ri-admin-line"></i>Admin Login</a>
+            </div>
         </div>
         <div id="main"> 
             <div id="login-pannel">
                 <div id="user-signin">
                     <h1>Sign in</h1>
-                    <div id="iconset">
-                        <a href="#" class="icons"><i class="ri-google-fill"></i></a>
-                        <a href="#" class="icons"><i class="ri-facebook-circle-fill"></i></a>
-                        <a href="#" class="icons"><i class="ri-linkedin-box-fill"></i></a>
-                    </div>
-                    <h5>or use your account</h5>
                     <input type="email" id="email" pattern=".+@globex\.com" size="30" required placeholder="Email"/>
                     <input type="password" id="pass" name="password" minlength="8" required placeholder="Password" />  
                     <h5>Forgot your password?</h5>
