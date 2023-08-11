@@ -12,6 +12,10 @@
         <servlet-name>VaPa</servlet-name>
         <servlet-class>VaPa</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginDao</servlet-name>
+        <servlet-class>LoginDao</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidateAd</servlet-name>
         <url-pattern>/ValidateAd</url-pattern>
@@ -23,5 +27,9 @@
     <servlet-mapping>
         <servlet-name>VaPa</servlet-name>
         <url-pattern>/VaPa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginDao</servlet-name>
+        <url-pattern>/LoginDao</url-pattern>
     </servlet-mapping>
 </web-app>
