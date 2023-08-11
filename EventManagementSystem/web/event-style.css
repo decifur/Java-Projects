@@ -28,8 +28,32 @@ body {
     font-size: 30px;
     font-weight: 800;
 }
+#nav button{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #D9D5C7;
+    border: none;
+    border-color: #D9D5C7;
+    color: #313131;   
+    font-size: 15px; 
+    font-weight: 900;
+}
+#nav #reg-event button:hover{
+    text-decoration:underline;
+}
 #nav i{
-    padding-right: 10px;
+    font-size: larger;
+    font-weight: 900;
+}
+#right-tab {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 #main{
     display: flex;
@@ -38,23 +62,23 @@ body {
     overflow: hidden;
     margin-top: 10vh;
 }
-#admin-signin{
+#user-signup{
+    min-height: 70vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    height: 80vh;
-    border-radius: 30px 30px 0px 0px;
+    justify-content:flex-start;
+    border-radius: 30px;
     width: 50%;
-    background: linear-gradient(to left bottom, #EFECE4 0%, #D9D5C7 9%);
+    background-color: #D9D5C7;
 }
-#admin-signin h1{
+#user-signup h1{
     color: #313131;
     font-size: 40px;
     font-weight: 900;
 }
 #heading{
-    padding-top: 10vh;
+    padding-top: 8vh;
 }
 #details{
     display: flex;
@@ -63,7 +87,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 79%;
-    padding: 10% 30%;
+    padding: 3% 30%;
     gap: 2vh;
 }
 #details input{
@@ -82,6 +106,6 @@ body {
     align-self: center;
     background-color: #313131;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     border-color: #313131;
 }

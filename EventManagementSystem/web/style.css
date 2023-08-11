@@ -9,13 +9,14 @@ html,
 body {
     height: 100vh;
     width: 100%;
-    background-color: rgba(183, 180, 177, 0.263);
+    background: linear-gradient(to left top, #EFECE4 0%, #D9D5C7 90%);
 }
 
 #nav{
-    height: 9vh;
-    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
-    color: white;
+    height: 10vh;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #313131;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,19 +26,23 @@ body {
 }
 #admin-tab {
     height: 100%;
-    width: 15%;
+    width: 11%;
     position: absolute;
     right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#nav a{
-    padding: 1vh .9vw;
-    font-weight: 400;
-    color: white;
-    text-decoration: none;
-    right: 0;
+#nav button{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #313131;
+    border: none;
+    border-color: #313131;
+    color: white;   
+    font-size: 15px; 
+    font-weight: 300;
 }
 #nav i{
     padding-right: 10px;
@@ -62,8 +67,8 @@ body {
 #user-signin{
     width: 50%;
     height: 100%;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: #313131;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +84,7 @@ body {
 #user-signin input{
     width: 20vw;
     height: 3vw;
-    color: black;
+    color: #313131;
     background: #EEEEEE;    
     border-radius: 5px;
     padding-left: 10px;
@@ -89,17 +94,17 @@ body {
 #user-signin #sub-in{
     padding: 10px;
     width: 35%;
-    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
+    background-color: #313131;
     color: white;
     border-radius: 15px;
-    border-color: #FF4A2B;
+    border-color: #313131;
 }
 
 #user-signup{
     width: 50%;
     height: 100%;
     color: white;
-    background: linear-gradient(to left bottom, #FC426B 0%, #FF4A2B 80%);
+    background-color: #313131;
     display: flex;
     flex-direction: column;
     align-items: center;
