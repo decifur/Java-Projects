@@ -24,7 +24,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
     else{  
         out.println("<script>");
         out.println("function myFunction() {");
-        out.println("    alert('Sorry Username or Password Incorrect');");
+        out.println("    alert('Incorrect Username or Password');");
         out.println("}");
         out.println("myFunction();");
         out.println("</script>");
