@@ -16,6 +16,14 @@
         <servlet-name>LoginDao</servlet-name>
         <servlet-class>LoginDao</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddEvent</servlet-name>
+        <servlet-class>AddEvent</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewEventList</servlet-name>
+        <servlet-class>ViewEventList.ViewEventList</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ValidateAd</servlet-name>
         <url-pattern>/ValidateAd</url-pattern>
@@ -31,5 +39,13 @@
     <servlet-mapping>
         <servlet-name>LoginDao</servlet-name>
         <url-pattern>/LoginDao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddEvent</servlet-name>
+        <url-pattern>/AddEvent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewEventList</servlet-name>
+        <url-pattern>/ViewEventList</url-pattern>
     </servlet-mapping>
 </web-app>
