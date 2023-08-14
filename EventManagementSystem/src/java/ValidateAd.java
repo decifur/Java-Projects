@@ -19,11 +19,11 @@ public class ValidateAd extends HttpServlet {
        //Checking Entries
        
        if(pw.equals(adpwd1) && un.equals(ad1)){
-           RequestDispatcher rd = request.getRequestDispatcher("index.html");
+           RequestDispatcher rd = request.getRequestDispatcher("admin-event-page.html");
            rd.forward(request, response);
        }
        else if(pw.equals(adpwd2) && un.equals(ad2)){
-           RequestDispatcher rd = request.getRequestDispatcher("index.html");
+           RequestDispatcher rd = request.getRequestDispatcher("admin-event-page.html");
            rd.forward(request, response);
        }
        else{
