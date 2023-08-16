@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="user-style.css">
+        <link rel="stylesheet" href="add-event-styles.css">
     </head>
     <body>
         <div id="nav">
@@ -14,18 +14,24 @@
         <div id="main">
             <div id="user-signup">
                 <div id="heading">
-                    <h1>Sign Up</h1>
+                    <h1>Add Events</h1>
                 </div>
-                <form  id="details" method="post" action="StoreP">
-                    <label for="text-name">Name</label>
-                    <input id="text-name" type="text" name="Pname">
-                    <label for="text-uname">Username</label>
-                    <input type="text" id="text-uname" name="Pusername" required minlength="4" maxlength="8" size="10"/>
-                    <label for="text-upwd">Password</label>
-                    <input type="password" id="text-upwd" name="Ppassword" minlength="8" required placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" />
-                    <label for="re-pass">Confirm Password</label>
-                    <input type="password" id="re-pass" name="Cpassword" minlength="8" required placeholder="&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;&#x2022;" />
-                    <input type="submit" id="sub" value="SIGN UP">
+                <form  id="details" method="post" action="AddEvent">
+                    <label for="event-num">Event Number</label>
+                    <input id="event-num" type="number" name="EventNo" required>
+                    <label for="event-name">Event Name</label>
+                    <input type="text" id="event-name" name="EventName" required/>
+                    <label for="co-name">Coordinator Name</label>
+                    <input type="text" id="co-name" name="coName" required/>
+                    <label for="co-num">Coordinator Number</label>
+                    <input type="number" id="co-num" name="coNum" required/>
+                    <label for="fee">Registration Fee</label>
+                    <input type="text" id="fee" name="eventFee" required/>
+                    <label for="text-venue">Venue</label>
+                    <input type="text" id="text-venue" name="eventVenue" required/>
+                    <label for="event-date">Date</label>
+                    <input type="date" id="event-date" name="eventDate" required/>
+                    <input type="submit" id="create-event" value="CREATE">
                 </form>
             </div>
         </div>
