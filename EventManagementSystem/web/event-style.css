@@ -69,7 +69,7 @@ body {
     flex-direction: column;
     justify-content:flex-start;
     border-radius: 30px;
-    width: 50%;
+    width: 70%;
     background-color: #D9D5C7;
 }
 #user-signup h1{
@@ -111,7 +111,18 @@ body {
 }
 
 #eventslist{
-    background-color: red;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#eventslist>table{
+    border-collapse: collapse;
+    width: 90%;
+}
+#eventslist>table td,th{
+    padding: 10px;
+    text-align: center;
 }
