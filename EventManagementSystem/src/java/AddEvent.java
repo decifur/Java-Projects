@@ -28,7 +28,7 @@ public class AddEvent extends HttpServlet{
             String Qs="insert into Eventdetails values('"+a1+"','"+a2+"','"+a3+"','"+a4+"','"+a5+"','"+a6+"','"+a7+"') ";
             ResultSet rs=stmt.executeQuery(Qs);
                  
-            RequestDispatcher rd=request.getRequestDispatcher("admin-addEvents.html");
+            RequestDispatcher rd=request.getRequestDispatcher("admin-events.jsp");
             rd.include(request, response);
                  
             out.println("<script>");
