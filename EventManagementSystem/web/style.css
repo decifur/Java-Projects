@@ -24,6 +24,9 @@ body {
     padding-left: 2vw;
     position: relative;
 }
+#nav>h1{
+    font-weight: 700;
+}
 #admin-tab {
     height: 100%;
     width: 11%;
