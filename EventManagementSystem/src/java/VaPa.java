@@ -18,7 +18,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
     String p=request.getParameter("Papassword").trim();  
           
     if(LoginDao.validate(n, p)){  
-        RequestDispatcher rd=request.getRequestDispatcher("event-page.html");  
+        RequestDispatcher rd=request.getRequestDispatcher("user-events.jsp");  
         rd.forward(request,response);  
     }  
     else{  
